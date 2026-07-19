@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RFS Showcase",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/example/lib/main.dart",
+      "cwd": "${workspaceFolder}/example",
+      "console": "terminal"
+    },
+    {
+      "name": "opa_rfs Tests",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/test/opa_rfs_test.dart",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Example Tests",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/example/test/example_test.dart",
+      "cwd": "${workspaceFolder}/example"
+    }
+  ]
+}

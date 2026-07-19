@@ -1,0 +1,21 @@
+name: opa_rfs
+description: "Fluid responsive sizing for Flutter. Typography, spacing, radii, shadows, and text themes that scale smoothly between typed min and max endpoints."
+version: 1.0.0
+repository: https://github.com/Almis90/opa_rfs
+topics:
+  - responsive
+  - typography
+  - flutter-ui
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
