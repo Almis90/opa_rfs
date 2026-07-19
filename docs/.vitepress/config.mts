@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const apiReference = 'https://almis90.github.io/opa_rfs/api/'
+
 export default defineConfig({
   title: 'opa_rfs',
   description: 'Fluid responsive sizing for Flutter',
@@ -20,7 +22,7 @@ export default defineConfig({
     nav: [
       { text: 'Guide', link: '/guide/getting-started' },
       { text: 'Playground', link: '/playground' },
-      { text: 'API', link: '/api/' },
+      { text: 'API', link: apiReference },
       {
         text: '1.0.0',
         items: [
@@ -52,7 +54,7 @@ export default defineConfig({
         text: 'Explore',
         items: [
           { text: 'Interactive playground', link: '/playground' },
-          { text: 'API reference', link: '/api/' },
+          { text: 'API reference', link: apiReference },
         ],
       },
     ],

@@ -46,4 +46,4 @@ At wide layouts the headline reaches `64`. As space narrows, it eases toward
 
 Use the [getting-started guide](/guide/getting-started) for installation, visit
 the [interactive playground](/playground) to see the curve change live, or jump
-straight to the generated [API reference](/api/).
+straight to the generated [API reference](https://almis90.github.io/opa_rfs/api/).
